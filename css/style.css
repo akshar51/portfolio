@@ -64,10 +64,10 @@ nav ul li:hover a{
 }
 
 
-/* BANNER */
+/*------------------- B  A  N  N  E  R -----------------------*/
 
 .banner{
-    padding: 170px 0px;
+    padding: 170px 0px 70px;
 }
 
 .banner :first-child{
@@ -88,3 +88,85 @@ nav ul li:hover a{
     padding-top: 70px;
 }
 
+/*-------------------  A  B  O  U  T   ---------------------  */
+
+.about{
+    padding: 90px 0px;
+   
+}
+
+
+.about-title h2{
+    font-size: 15vw;
+    font-weight: 700;
+    color:black;
+    -webkit-text-stroke: 1px white;
+    
+}
+
+.about-title h3{
+    font-size: 12vw;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+.about-inner{
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.about-inner .about-content h3{
+    position: relative;
+    z-index: 9;
+}
+
+.about-inner .about-content h3::before{
+    content: "DEVELOPER,";
+    position: absolute;
+    bottom: -30px;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.about-inner .about-content h3::after{
+    content: "DEVELOPER,";
+    position: absolute;
+    bottom: -60px;
+    opacity: 0.1;
+    left: 0;
+}
+
+
+/* --------------- E  D  U  C  A  T  I  O  N ---------------*/
+
+.education{
+    padding: 90px 0px;
+}
+
+.education-title{
+    height: 100%;
+   
+}
+
+
+.education-title h2{
+    position: sticky;
+    top: 20%;
+    /* bottom: 20%; */
+}
+
+
+/* ------------  P  R  O  J  E  C  T  ---------------------- */
+
+.project{
+    padding: 90px 0px;
+    height: 100vh;
+}
+
+.project-title h2{
+    font-size: 6vw;
+    line-height: 4.6vw;
+}
