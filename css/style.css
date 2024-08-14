@@ -234,3 +234,22 @@ nav ul li:hover a{
  .skill-item h3{
   font-family: 'Allura';
  }
+
+
+.skill-title{
+  height: 100%;
+ 
+}
+
+.skill-title h2{
+  position: sticky;
+  top: 20%;
+  /* bottom: 20%; */
+}
+
+
+/* ---------------  C  O  N  T  A  C  T  ----------------*/
+
+.contact{
+  height: 100vh;
+}
