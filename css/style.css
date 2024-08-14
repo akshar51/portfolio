@@ -1,11 +1,11 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body{
-    font-family: 'Poppins' !important;
+  font-family: 'Poppins' !important;
 }
 
 
@@ -13,206 +13,224 @@ body{
 /* -----------------NAVBAR ---------------------*/
 
 header{
-    z-index: 1;
+  z-index: 1;
 }
 
 
 header .container .clone-text{
-    position: relative;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: "Poppins";
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins";
 
 }
 
 header .container .clone-text::before{
-    content: "KSHAR";
-    position: absolute;
-    left: 100%;
-    -webkit-text-stroke: 1px #ffffff;
-    color: black;
+  content: "KSHAR";
+  position: absolute;
+  left: 100%;
+  -webkit-text-stroke: 1px #ffffff;
+  color: black;
 }
 
- nav ul li {
-    border: 2px solid #9f9f9f;  
-    border-radius: 50px;
-    padding: 2px 8px;
-    position: relative;
-    overflow: hidden;
-    color: black;
+nav ul li {
+  border: 2px solid #9f9f9f;  
+  border-radius: 50px;
+  padding: 2px 8px;
+  position: relative;
+  overflow: hidden;
+  color: black;
 
 } 
 
 nav ul li a::after{
-    content: "";
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    bottom: -100%;
-    position: absolute;
-    left: 0;
-    transition: all ease 0.3s;
-    z-index: -1;
-    border-radius: 60%;
-    color: black;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  position: absolute;
+  left: 0;
+  transition: all ease 0.3s;
+  z-index: -1;
+  border-radius: 60%;
+  color: black;
 }
 
 nav ul li:hover ::after{
-    bottom: 0;
-    color: black;
-    border-radius: 0;
+  bottom: 0;
+  color: black;
+  border-radius: 0;
 }
 
 nav ul li:hover a{
-    color: black !important;
+  color: black !important;
 }
 
 
 /*------------------- B  A  N  N  E  R -----------------------*/
 
 .banner{
-    padding: 170px 0px 70px;
+  padding: 170px 0px 70px;
 }
 
 .banner :first-child{
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .banner-title :nth-child(2){
-   font-size: 10vw;
-   font-weight: 600;
+ font-size: 10vw;
+ font-weight: 600;
 }
 
 .banner-title :last-child{
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .banner-location{
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 /*-------------------  A  B  O  U  T   ---------------------  */
 
 .about{
-    padding: 90px 0px;
-   
+  padding: 90px 0px;
+ 
 }
 
 
 .about-title h2{
-    font-size: 15vw;
-    font-weight: 700;
-    color:black;
-    -webkit-text-stroke: 1px white;
-    
+  font-size: 15vw;
+  font-weight: 700;
+  color:black;
+  -webkit-text-stroke: 1px white;
+  
 }
 
 .about-title h3{
-    font-size: 12vw;
-    font-weight: 800;
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 0;
+  font-size: 12vw;
+  font-weight: 800;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0;
 }
 
 .about-inner{
-    margin-top: 80px;
-    padding-top: 50px;
+  margin-top: 80px;
+  padding-top: 50px;
 }
 
 .about-inner .about-content h3{
-    position: relative;
-    z-index: 9;
+  position: relative;
+  z-index: 9;
 }
 
 .about-inner .about-content h3::before{
-    content: "DEVELOPER,";
-    position: absolute;
-    bottom: -30px;
-    opacity: 0.4;
-    z-index: 1;
+  content: "DEVELOPER,";
+  position: absolute;
+  bottom: -30px;
+  opacity: 0.4;
+  z-index: 1;
 }
 
 .about-inner .about-content h3::after{
-    content: "DEVELOPER,";
-    position: absolute;
-    bottom: -60px;
-    opacity: 0.1;
-    left: 0;
+  content: "DEVELOPER,";
+  position: absolute;
+  bottom: -60px;
+  opacity: 0.1;
+  left: 0;
 }
 
 
 /* --------------- E  D  U  C  A  T  I  O  N ---------------*/
 
 .education{
-    padding: 90px 0px;
+  padding: 90px 0px;
 }
 
 .education-title{
-    height: 100%;
-   
+  height: 100%;
+ 
 }
 
 
 .education-title h2{
-    position: sticky;
-    top: 20%;
-    /* bottom: 20%; */
+  position: sticky;
+  top: 20%;
+  /* bottom: 20%; */
 }
 
 
 /* ------------  P  R  O  J  E  C  T  ---------------------- */
 
 .project{
-    padding: 90px 0px;
+  padding: 90px 0px;
 }
 
 .project-rotate{
-    height: 70px;
-    overflow: hidden;
-    display: inline-block;
+  height: 70px;
+  overflow: hidden;
+  display: inline-block;
 }
 .project-rotate h2{
-    transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 
 .project-rotate:hover h2{
-    transform: translateY(-100%);
-    transition: all ease 0.5s;
+  transform: translateY(-100%);
+  transition: all ease 0.5s;
 }
 
 .project-rotate :nth-child(2){
-    color: #365E32;
+  color: #365E32;
 }
 
 .project-title h2{
-    font-size: 6vw;
-    line-height: 4.6vw;
+  font-size: 6vw;
+  line-height: 4.6vw;
 }
 
 .project-item{
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    z-index: 9;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
 }
 
 .project-item .overlay{
-    height: 100%;
-    width: 100%;
-    background-color: #365E32;
-    position: absolute;
-    top: -100%;
-    transition: all ease-out 0.3s;
-    z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-color: #365E32;
+  position: absolute;
+  top: -100%;
+  transition: all ease-out 0.3s;
+  z-index: -1;
 }
- 
+
 .project-item:hover .overlay{
-    top: 0;
+  top: 0;
 } 
 
 .project-item:hover .p-text{
-    color: #000 !important;
+  color: #000 !important;
 }
+
+
+/* ---------------- S  K  I  L  L   ------------------------*/
+
+
+ .skill{
+  padding: 90px 0px;
+ }
+
+ .skill-content{
+  border: 1px solid #636363;
+  border-radius: 10px;
+  background-color:#0a0a0a;
+ }
+
+ .skill-item h3{
+  font-family: 'Allura';
+ }
