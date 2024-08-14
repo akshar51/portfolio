@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Poppins' !important;
@@ -163,10 +167,52 @@ nav ul li:hover a{
 
 .project{
     padding: 90px 0px;
-    height: 100vh;
+}
+
+.project-rotate{
+    height: 70px;
+    overflow: hidden;
+    display: inline-block;
+}
+.project-rotate h2{
+    transition: all ease 0.5s;
+}
+
+.project-rotate:hover h2{
+    transform: translateY(-100%);
+    transition: all ease 0.5s;
+}
+
+.project-rotate :nth-child(2){
+    color: #365E32;
 }
 
 .project-title h2{
     font-size: 6vw;
     line-height: 4.6vw;
+}
+
+.project-item{
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.project-item .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #365E32;
+    position: absolute;
+    top: -100%;
+    transition: all ease-out 0.3s;
+    z-index: -1;
+}
+ 
+.project-item:hover .overlay{
+    top: 0;
+} 
+
+.project-item:hover .p-text{
+    color: #000 !important;
 }
