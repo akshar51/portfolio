@@ -109,7 +109,7 @@ nav ul li:hover a{
 }
 
 .about-title h3{
-  font-size: 12vw;
+  font-size: 11vw;
   font-weight: 800;
   color: white;
   position: absolute;
@@ -251,5 +251,22 @@ nav ul li:hover a{
 /* ---------------  C  O  N  T  A  C  T  ----------------*/
 
 .contact{
+  padding: 90px 0px;
   height: 100vh;
+}
+
+.contact-title{
+  position: relative;
+  /* border: 1px solid #fff; */
+  overflow: hidden;
+}
+.contact-title h2{
+  position: absolute;
+  bottom: -100%;
+  transition: all ease 0.5s;
+}
+
+.contact-title:hover h2{
+  transform: translateY(-100%);
+  transition: all ease 0.5s;
 }
