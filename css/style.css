@@ -303,3 +303,26 @@ nav ul li:hover a{
   transition: all ease 0.5s;
   border-radius: 0;
 }
+
+
+/* ---------------  F  O  O  T  E  R  --------------- */
+
+
+
+.footer-content{
+  z-index: 9;
+  overflow: hidden;
+}
+
+.footer-back-text{
+  z-index: -1;
+  top: 80%;
+ 
+}
+
+.footer-back-text h2{
+  font-size: 8.3vw;
+  opacity: 0.3;
+  overflow: hidden;
+  user-select: none;
+}
