@@ -75,7 +75,6 @@ nav ul li:hover a{
 }
 
 .banner :first-child{
-  font-size: 20px;
   font-weight: 600;
 }
 
@@ -226,7 +225,7 @@ nav ul li:hover a{
  }
 
  .skill-content{
-  border: 1px solid #636363;
+  border: 1px solid #212529;
   border-radius: 10px;
   background-color:#0a0a0a;
  }

@@ -1,12 +1,44 @@
 
 @media (min-width: 576px){
-   
+   /* BANNER */
+   .banner{
+    padding: 100px 0px 50px ;
+   }
+   .banner-location{
+    padding-top: 30px;
+  }
+
+  /* ABOUT */
+  .about{
+    padding: 60px 0px;
+  }
+
+  .about-inner{
+    margin-top: 10px;
+  }
 }
 
 
 
 
 @media (min-width: 768px){
+
+    /* BANNER */
+   .banner{
+    padding: 100px 0px 50px ;
+   }
+   .banner-location{
+    padding-top: 30px;
+  }
+
+   /* ABOUT */
+   .about{
+    padding: 60px 0px;
+  }
+  .about-inner{
+    margin-top: 10px;
+  }
+
 
 }
 
@@ -15,12 +47,45 @@
 
 
 @media (min-width: 992px){
-    
+    /* BANNER */
+   
+    .banner{
+    padding: 170px 0px 70px;
+   }
+   .banner-location{
+    padding-top: 70px;
+  }
+
+   /* ABOUT */
+   .about{
+    padding: 90px 0px;
+  }
+  .about-inner{
+    margin-top: 80px;
+    padding-top: 50px;
+  }
+
+
 }
 
 
 
 
 @media (min-width: 1200px){
+    /* BANNER */
+    .banner{
+        padding: 170px 0px 70px;
+       }
+       .banner-location{
+        padding-top: 70px;
+      }
     
+       /* ABOUT */
+       .about{
+        padding: 90px 0px;
+      }
+      .about-inner{
+        margin-top: 80px;
+        padding-top: 50px;
+      }
 }
