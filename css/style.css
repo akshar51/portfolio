@@ -191,7 +191,7 @@ nav ul li:hover a{
 }
 
 .project-item{
-  height: 70px;
+  height: 100px;
   position: relative;
   overflow: hidden;
   z-index: 9;

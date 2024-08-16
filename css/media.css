@@ -25,6 +25,21 @@
   .education-title h2{
     position: static;
   }
+
+  /* PROJECT */
+  .project-title h2{
+    font-size: 60px;
+    line-height: 49px;
+  }
+ 
+.project-rotate{
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  /* border: 1px solid #fff; */
+}
+
+
 }
 
 
@@ -55,6 +70,7 @@
     .education-title h2{
       position: static;
     }
+
 
 
 }
@@ -92,6 +108,18 @@
     /* bottom: 20%; */
   }
 
+   /* PROJECT */
+   .project-title h2{
+    font-size: 60px;
+    line-height: 49px;
+  }
+ 
+.project-rotate{
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  /* border: 1px solid #fff; */
+}
 
 }
 
@@ -126,4 +154,16 @@
      top: 20%;
      /* bottom: 20%; */
   }
+
+    /* PROJECT */
+    .project-title h2{
+      font-size: 5vw;
+      line-height: 4.6vw;
+    }
+
+    .project-rotate{
+      height: 70px;
+      overflow: hidden;
+      display: inline-block;
+    }
 }
