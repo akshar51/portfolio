@@ -22,9 +22,6 @@
   .education{
     padding: 60px 0px;
   }
-  .education-title h2{
-    position: static;
-  }
 
   /* PROJECT */
   .project-title h2{
@@ -38,6 +35,11 @@
   display: inline-block;
   /* border: 1px solid #fff; */
 }
+
+  /* SKILL */
+  .skill{
+    padding: 60px 0px;
+   }
 
 
 }
@@ -71,6 +73,10 @@
       position: static;
     }
 
+      /* SKILL */
+  .skill{
+    padding: 60px 0px;
+   }
 
 
 }
@@ -121,6 +127,13 @@
   /* border: 1px solid #fff; */
 }
 
+  /* SKILL */
+  .skill{
+    padding: 90px 0px;
+   }
+
+
+
 }
 
 
@@ -162,8 +175,19 @@
     }
 
     .project-rotate{
-      height: 70px;
+      height: 60px;
       overflow: hidden;
       display: inline-block;
     }
+
+   /* SKILL */
+  .skill{
+    padding: 90px 0px;
+   }
+
+
+
+
+
+
 }
