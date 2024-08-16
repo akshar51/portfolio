@@ -154,7 +154,6 @@ nav ul li:hover a{
  
 }
 
-
 .education-title h2{
   position: sticky;
   top: 20%;
@@ -192,7 +191,7 @@ nav ul li:hover a{
 }
 
 .project-item{
-  height: 100px;
+  height: 70px;
   position: relative;
   overflow: hidden;
   z-index: 9;
